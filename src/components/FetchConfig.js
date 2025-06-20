@@ -18,7 +18,7 @@ function FetchConfig() {
 
   return (
     <div className="card">
-      <h2>Fetch Configuration</h2>
+      <h2 className="page-heading">Fetch Configuration</h2>
       <form onSubmit={handleFetch}>
         <input
           type="text"

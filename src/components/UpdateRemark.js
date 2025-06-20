@@ -21,7 +21,7 @@ function UpdateRemark() {
 
   return (
     <div className="card">
-      <h2>Update Remark</h2>
+      <h2 className="page-heading">Update Remark</h2>
       <form onSubmit={handleUpdate}>
         <input
           type="text"
